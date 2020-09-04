@@ -5,7 +5,7 @@
 ## Build
 
 ```bash
-$ make && sudo make install
+$ make && cp lolcat /usr/sbin/lolcat  && chmod 0755 /usr/sbin/lolcat
 ```
 
 ## Why?
