@@ -1,42 +1,8 @@
-# What?
-
-![](https://raw.githubusercontent.com/jaseg/lolcat/master/LOLCat-Rainbow.jpg)
-
 ## Screenshot
 
 ![](https://raw.githubusercontent.com/jaseg/lolcat/master/screenshot.png)
 
-![](./sl.gif)
-
-## Installation
-
-### Archlinux
-
-There's an [AUR package](https://aur.archlinux.org/packages/c-lolcat):
-
-```bash
-$ git clone https://aur.archlinux.org/packages/c-lolcat
-$ cd c-lolcat
-$ makepkg -csi
-```
-
-### Ubuntu (Snap)
-
-See [this awesome blog post by a kind person from the internet](https://blog.simos.info/how-to-make-a-snap-package-for-lolcat-with-snapcraft-on-ubuntu/):
-
-```bash
-$ snap install lolcat-c
-```
-
-### Mac
-
-Build loclcat with:
-```
-$ make lolcat
-```
-...and put the resulting binary at a place of your choice.
-
-### Others
+## Build
 
 ```bash
 $ make && sudo make install
